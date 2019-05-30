@@ -1,0 +1,22 @@
+CREATE TABLE cel ( 
+        `eventtype` varchar (30) NULL ,
+        `eventtime` datetime NULL , 
+        `cidname` varchar (80) NULL , 
+        `cidnum` varchar (80) NULL , 
+        `cidani` varchar (80) NULL ,
+        `cidrdnis` varchar (80) NULL , 
+        `ciddnid` varchar (80) NULL ,
+        `exten` varchar (80) NULL , 
+        `context` varchar (80) NULL , 
+        `channame` varchar (80) NULL ,
+        `appname` varchar (80) NULL ,
+        `appdata` varchar (80) NULL , 
+        `amaflags` varchar (16) NULL , 
+        `accountcode` varchar (20) NULL ,
+        `peeraccount` varchar (255) NULL ,
+        `uniqueid` varchar (32) NULL , 
+        `linkedid` varchar (255) NULL , 
+        `userfield` varchar (255) NULL , 
+        `peer` varchar (80) NULL,
+        `extra` varchar (255) NULL
+) ENGINE = InnoDB DEFAULT CHARSET = utf8;
