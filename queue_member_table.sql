@@ -1,4 +1,4 @@
-CREATE TABLE queue_member_table (
+CREATE TABLE queue_member (
   uniqueid INT(10) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
   membername varchar(40),
   queue_name varchar(128),
