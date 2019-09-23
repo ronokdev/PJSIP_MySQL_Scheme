@@ -18,5 +18,5 @@ CREATE TABLE cel (
         `linkedid` varchar (255) NULL , 
         `userfield` varchar (255) NULL , 
         `peer` varchar (80) NULL,
-        `extra` varchar (255) NULL
+        `extra` varchar (1024) NULL
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
