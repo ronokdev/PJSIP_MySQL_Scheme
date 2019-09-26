@@ -10,7 +10,7 @@ CREATE TABLE cel (
         `context` varchar (80) NULL , 
         `channame` varchar (80) NULL ,
         `appname` varchar (80) NULL ,
-        `appdata` varchar (80) NULL , 
+        `appdata` varchar (1024) NULL , 
         `amaflags` varchar (16) NULL , 
         `accountcode` varchar (20) NULL ,
         `peeraccount` varchar (255) NULL ,
