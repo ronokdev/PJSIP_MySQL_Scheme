@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS `queue_log` (
-	`time` varchar (32) DEFAULT NULL,
+	`time` datetime NOT NULL default CURRENT_TIMESTAMP,
 	`callid` char (64) DEFAULT NULL,
 	`queuename` char (64) DEFAULT NULL,
 	`agent` char (64) DEFAULT NULL,
